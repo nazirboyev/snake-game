@@ -35,7 +35,7 @@ function init() {
   gameOverEl.classList.add("hidden");
 
   clearInterval(game);
-  game = setInterval(draw, 100);
+  game = setInterval(draw, 150);
 }
 
 // RANDOM FOOD
